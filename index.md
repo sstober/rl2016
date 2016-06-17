@@ -6,12 +6,12 @@ title: Index
 # Representation Learning
 ---------------------------------
 
-AM 2: Representation Learning - from a Deep Learning Perspective
-Winter Semester 2016/2017
+AM 2: Representation Learning - from a Deep Learning Perspective  
+Winter Semester 2016/2017  
 [Dr. Sebastian Stober](http://www.uni-potsdam.de/mlcog/)  
-Thu 10-12; Golm, Haus 14, Raum 0.09 (tentative)
+Thu 10-12; Golm, Haus 14, Raum 0.09 (tentative)  
 
-**Begins: Thursday, October ??**
+**Begins: Thursday, October 20**
 
 ---
 
@@ -40,11 +40,11 @@ The implementation will be in Python using either [Theano](https://github.com/Th
 Each group will document their progress in weekly blog posts with rotating authors 
 and describe their final solution in a short paper.
 
+The course primarily addresses students within the [Cognitive Systems Master](http://www.uni-potsdam.de/en/studium/what-to-study/masterstudium/master-a-z/cognitive-systems.html) but is also open to a general audience.
 As prerequisites for the course, you should already have basic knowledge on machine learning in general as well as linear algebra and probability theory. 
 Those who would like a refresher prior to taking this class can find an excellent compilation in Part I of the [Deep Learning Book](http://www.deeplearningbook.org/).
 You should also know already how to program in Python
 and of course bring some curiosity to embark on an open-ended and exploratory learning process for the course project.
 
-
-Please use the [Piazza Forum](https://piazza.com/class/FIXME)
-for the course to discuss questions and help each other!
+If you have got questions about the course, please contact [Sebastian Stober](mailto:sstober@uni-potsdam.de).
+There is also a [Piazza Forum](https://piazza.com/uni-potsdam.de/winter2017/am2) for the course to discuss questions and help each other!
