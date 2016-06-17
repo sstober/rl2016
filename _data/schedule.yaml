@@ -1,0 +1,69 @@
+lectures:
+  - date: 2016-04-15
+    assignment:
+    type: 
+    content:
+    - title: Introduction
+      slides: lectures/01%20Introduction.pdf
+    - title: Deep Learning Basics
+      slides: lectures/01b%20Basics.pdf
+    assignment:
+        - label: Mushrooms 
+          link: assignment1.html
+  - date: 2016-04-22
+    content:
+    - title: Word embeddings
+    type: 
+    slides: 
+    reading: 
+    - author: Mikolov et al. (2013a)
+      title: Efficient estimation of word representations in vector space
+      url: http://arxiv.org/pdf/1301.3781.pdf
+    - author: Mikolov et al. (2013b)
+      title: Distributed representations of words and phrases and their compositionality
+      url: https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
+    - author: Xin Rong
+      title: word2vec parameter learning explained
+      url: http://www-personal.umich.edu/~ronxin/pdf/w2vexp.pdf
+    assignment:
+        - label: Word Embeddings 
+          link: assignment2.html
+  - date: 2016-04-29
+    content:
+    - title: Convolutional and recurrent NNs
+      slides: lectures/03%20Convolution%20and%20Recurrence.pdf
+    type: 
+    slides: 
+    reading: 
+    - author: Goodfellow et al. (2016a)
+      title: Deep Learning Book - Chapter 9 (CNNs), sections 9.6ff are optional
+      url: http://www.deeplearningbook.org/contents/convnets.html
+    - author: Goodfellow et al. (2016b)
+      title: Deep Learning Book - Chapter 10 (RNNs), mainly up to 10.6
+      url: http://www.deeplearningbook.org/contents/rnn.html
+  - date: 2016-05-06
+    content:
+    - title: More on recurrent NNs
+      slides: lectures/04%20More%20Recurrence.pdf
+    assignment: 
+    type: 
+    slides: 
+    reading: 
+  - date: 2016-05-13
+    content:
+    - title: Attention
+    type: 
+    slides: 
+    reading: 
+    - author: Sutskever et al. (2014)
+      title: Sequence to Sequence Learning with Neural Networks
+      url: http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
+    - author: Bahdanau et al. (2015)
+      title: Neural machine translation by jointly learning to align      and translate
+      url: http://arxiv.org/pdf/1409.0473
+  - date: 2016-05-20
+    content:
+    - title: Questions and project discussion
+    type: 
+    slides: 
+    reading: 

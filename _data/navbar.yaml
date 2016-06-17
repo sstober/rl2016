@@ -1,0 +1,29 @@
+navbar:
+  - section: General
+    entries:
+      - title: Index
+        url: index.html
+      - title: Schedule
+        url: schedule.html
+      - title: Literature
+        url: literature.html
+  - section: Assignments
+    entries:
+      - title: 1 - Mushrooms
+        url: assignment1.html
+        id: ass1
+      - title: 2 - Word Embeddings
+        url: assignment2.html
+        id: ass2
+      - title: 3 - Recurrent networks
+        url: assignment3.html
+        id: ass3
+      - title: 4 - Image classification
+        url: assignment4.html
+        id: ass4
+      - title: 5 - Image labeling
+        url: assignment5.html
+        id: ass5
+      - title: 6 - Attention
+        url: assignment6.html
+        id: ass6
