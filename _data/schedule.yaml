@@ -1,38 +1,94 @@
 lectures:
-  - date: 2016-04-15
+  - date: 2016-10-20
     assignment:
     type: 
     content:
-    - title: Introduction
-      slides: lectures/01%20Introduction.pdf
-    - title: Deep Learning Basics
-      slides: lectures/01b%20Basics.pdf
+    - title: Introductions
+      slides: 
+    reading: 
+    - optional: True,
+      title: "Deep Learning Book - Part I: Applied Math and Machine Learning Basics"
+      url: http://www.deeplearningbook.org/
+    - optional: True,
+      title: "TODO: more links to online lectures/talks on basics"
+      url: 
     assignment:
-        - label: Mushrooms 
+        - label: "Learn to swim"
           link: assignment1.html
-  - date: 2016-04-22
+          objectives:
+            "
+
+            "
+          activities: 
+            "
+            Set up server accounts.
+            Learn to use the development environment.
+            Work through the intro tutorials for Theano and/or Tensorflow.
+            "
+    objectives:
+      "
+      establish learning environment (active participation etc.)
+      reflect on personal goals, motivation and (prior) knowledge
+      make course goals explicit (and link them to personal goals)
+      anchor course topic within broader scope of machine learning and deep learning
+      "    
+    activities: 
+      "
+      get to know each other (circle of chairs)
+      explain course rationale, (global) learning objectives, grading mode
+      collect expectations and prior experiences (option: ball joint with cross-disciplinary pairs)
+      group work: active structuring of ML topics (given topics, mixed groups)
+      -> topic map (together)
+      "
+
+
+  - date: 2016-10-27
     content:
-    - title: Word embeddings
+    - title: MLPs, Gradient Descent & Backpropagation
     type: 
     slides: 
-    reading: 
-    - author: Mikolov et al. (2013a)
-      title: Efficient estimation of word representations in vector space
-      url: http://arxiv.org/pdf/1301.3781.pdf
-    - author: Mikolov et al. (2013b)
-      title: Distributed representations of words and phrases and their compositionality
-      url: https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
-    - author: Xin Rong
-      title: word2vec parameter learning explained
-      url: http://www-personal.umich.edu/~ronxin/pdf/w2vexp.pdf
+    - title: "Deep Learning Book - Chapter 6: Deep Feedforward Networks"
+      url: http://www.deeplearningbook.org/contents/mlp.html
     assignment:
-        - label: Word Embeddings 
+        - label: Basic MLP training
           link: assignment2.html
-  - date: 2016-04-29
+          objectives:
+            "
+            practice using the deep learning toolkit with a given model and dataset
+            (no model design necessary)
+            understand different basic training extensions and parameters
+            understand basic plotting functions (monitoring channels)
+            "
+          activities: 
+            "
+            given a simple feedforward model and a small dataset,
+            train the model using stochastic gradient descent,
+            monitor the learning progress using training extensions for printing and plotting,
+            vary the training parameters (e.g., batch size, learnin rate) 
+            and compare the resulting learning curves
+            "
+    objectives:
+      "
+      understand and be able to exlain fundamental and crucial principles of deep learning 
+      (MLP, forward/backward propagation and gradient descent)
+      note: most of this should be known from basic machine learning courses
+      "    
+    activities: 
+      "
+      3-minute recap "Last episode of..." (pictures of active structuring results and topic map),   
+      30min answering questions / discussion of MLP chapter,  
+      15min in pairs: explain each other how learning with gradient descent and backpropagation 
+      in a simple feedforward MLP works, 
+      10min answering questions from pairs
+      20-30min demo/intro of the deep learning frameworks (preferably by students who have used them already),  
+      "
+
+
+  - date: 2017-12-31
     content:
-    - title: Convolutional and recurrent NNs
-      slides: lectures/03%20Convolution%20and%20Recurrence.pdf
-    type: 
+    - title: Learning with Side Information
+      slides: 
+    type: Guest Talk
     slides: 
     reading: 
     - author: Goodfellow et al. (2016a)
@@ -41,29 +97,4 @@ lectures:
     - author: Goodfellow et al. (2016b)
       title: Deep Learning Book - Chapter 10 (RNNs), mainly up to 10.6
       url: http://www.deeplearningbook.org/contents/rnn.html
-  - date: 2016-05-06
-    content:
-    - title: More on recurrent NNs
-      slides: lectures/04%20More%20Recurrence.pdf
-    assignment: 
-    type: 
-    slides: 
-    reading: 
-  - date: 2016-05-13
-    content:
-    - title: Attention
-    type: 
-    slides: 
-    reading: 
-    - author: Sutskever et al. (2014)
-      title: Sequence to Sequence Learning with Neural Networks
-      url: http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
-    - author: Bahdanau et al. (2015)
-      title: Neural machine translation by jointly learning to align      and translate
-      url: http://arxiv.org/pdf/1409.0473
-  - date: 2016-05-20
-    content:
-    - title: Questions and project discussion
-    type: 
-    slides: 
-    reading: 
+  

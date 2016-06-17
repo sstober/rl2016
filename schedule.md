@@ -13,7 +13,7 @@ title: Schedule
     <tr>
       <th>Date</th>
       <th>Topic</th>
-      <th>Readings</th>
+      <th>Readings / Videos</th>
 	  <th width="15%">Assignments</th>
     </tr>
 	
@@ -42,7 +42,7 @@ title: Schedule
                         {% else %}
 							<i class="fa-li fa"> </i>
 						{% endif %}
-                        {{ reading.author }},
+                        {% if reading.author %}{{ reading.author }}, {% endif %}
                         {% if reading.url %}
 						    <a href="{{ reading.url }}">{{ reading.title }}</a>
                         {% else %}

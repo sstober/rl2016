@@ -9,11 +9,15 @@ title: Index
 AM 2: Representation Learning - from a Deep Learning Perspective  
 Winter Semester 2016/2017  
 [Dr. Sebastian Stober](http://www.uni-potsdam.de/mlcog/)  
-Thu 10-12; Golm, Haus 14, Raum 0.09 (tentative)  
+Thu 10-12; Golm, Haus 14, Raum 0.09 **(tentative)**  
 
 **Begins: Thursday, October 20**
 
 ---
+
+>_"The concept of representation learning ties together all of the many forms of deep learning. Feedforward and recurrent networks, autoencoders and deep probabilistic models all learn and exploit representations. Learning the best possible representation remains an exciting avenue of research."_  
+>[Deep Learning Book, Chapter 15: Representation Learning](http://www.deeplearningbook.org/contents/representation.html)
+
 
 Over the last decade, so-called "deep learning" techniques have become very popular in various application domains such as computer vision, automatic speech recognition, natural language processing, and bioinformatics where they produce state-of-the-art results on various challenging tasks.
 Most recently, deep neural networks even succeeded in [mastering the game of go](http://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234).
