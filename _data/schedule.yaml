@@ -1,6 +1,5 @@
 lectures:
-  - date: 2016-10-20
-    assignment:
+  - date: 2016-10-20    
     type: 
     content:
     - title: Introductions
@@ -17,7 +16,7 @@ lectures:
           link: assignment1.html
           objectives:
             "
-
+            Get your feet wet!
             "
           activities: 
             "
@@ -34,19 +33,24 @@ lectures:
       "    
     activities: 
       "
-      get to know each other (circle of chairs)
-      explain course rationale, (global) learning objectives, grading mode
-      collect expectations and prior experiences (option: ball joint with cross-disciplinary pairs)
-      group work: active structuring of ML topics (given topics, mixed groups)
-      -> topic map (together)
+      get to know each other (circle of chairs),  
+      explain course rationale, (global) learning objectives, grading mode,  
+      sign 'class contract',  
+      assign class documenter role for today 
+        (takes photos for short blog entry and does 3min-recap in next lesson, rotates each time),  
+      collect expectations and prior experiences (option: ball joint with cross-disciplinary pairs),  
+      group work: active structuring of ML topics (given topics, mixed groups),  
+      topic map (together)
       "
 
 
+
   - date: 2016-10-27
+    type: 
     content:
     - title: MLPs, Gradient Descent & Backpropagation
-    type: 
-    slides: 
+      slides: 
+    reading: 
     - title: "Deep Learning Book - Chapter 6: Deep Feedforward Networks"
       url: http://www.deeplearningbook.org/contents/mlp.html
     assignment:
@@ -64,32 +68,215 @@ lectures:
             given a simple feedforward model and a small dataset,
             train the model using stochastic gradient descent,
             monitor the learning progress using training extensions for printing and plotting,
-            vary the training parameters (e.g., batch size, learnin rate) 
+            vary the training parameters (e.g., batch size, learning rate) 
             and compare the resulting learning curves
             "
     objectives:
       "
-      understand and be able to exlain fundamental and crucial principles of deep learning 
+      understand and be able to explain fundamental and crucial principles of deep learning 
       (MLP, forward/backward propagation and gradient descent)
       note: most of this should be known from basic machine learning courses
       "    
     activities: 
       "
-      3-minute recap "Last episode of..." (pictures of active structuring results and topic map),   
+      3-minute recap 'Last episode of...' (pictures of active structuring results and topic map),   
       30min answering questions / discussion of MLP chapter,  
       15min in pairs: explain each other how learning with gradient descent and backpropagation 
-      in a simple feedforward MLP works, 
+      in a simple feedforward MLP works (option draw sketches), 
       10min answering questions from pairs
       20-30min demo/intro of the deep learning frameworks (preferably by students who have used them already),  
       "
 
 
-  - date: 2017-12-31
+
+  - date: 2016-11-03
+    type: 
     content:
-    - title: Learning with Side Information
+    - title: Autoencoders    
       slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 14: Autoencoders"
+      url: http://www.deeplearningbook.org/contents/autoencoders.html
+    assignment:
+        - label: Basic AE training
+          link: assignment3.html
+          objectives:
+            "
+            "
+          activities: 
+            "
+            build (fully connected) AE for small training dataset (6h) with fixed input length
+            try different input lengths and sampling rates for the input data
+            (dataset preparation script will be readily available)
+            measure performance on training and validation set
+            document and discuss findings
+            "
+    objectives:
+      "
+      understand and be able to explain fundamental and crucial principles of deep learning 
+      (MLP, forward/backward propagation and gradient descent)
+      note: most of this should be known from basic machine learning courses
+      "    
+    activities: 
+      "
+      3-minute recap 'Last episode of...' (pictures of basic MLP and forward/backward propagation scheme),  
+      30min answering questions / discussion of autoencoder chapter,  
+      "
+
+
+
+  - date: 2016-11-10
+    type:
+    content:
+    - title: CNNs
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 9: Convolutional Networks"
+      url: http://www.deeplearningbook.org/contents/convnets.html
+    assignment:
+        - label: Convolutional AE
+          link: assignment4.html
+          objectives:
+            "
+
+            "
+          activities: 
+            "
+            like assignment 3 but with convolution:
+            build CAE for small training dataset (6h)
+            try different sampling rates and input formats 
+            (raw audio vs. frequency spectrum vs. wavelets)
+            "
+    objectives:
+      "
+      understand concepts of convolution and pooling operations,  
+
+      "    
+    activities: 
+      "
+      3-minute recap 'Last episode of...',   
+      30min answering questions / discussion of MLP chapter,  
+      10min small groups (3-4): active structuring
+      reconstruct VGG-16 CNN architecture from building blocks (convolution filters and pooling layers) 
+      and match with activations (including softmax output and prediction) for a given input image,   
+      -> either do this for K different networks (1 per group) or at least use K different input images
+      10min all go around and discuss solutions, summary/comparison
+      5min buffer/remaining questions
+      15min all or small groups (3-4): discuss what happens for augmented inputs
+        - shifted, inverted, +noise, scaled, rotated
+        - extra: modified input image (with ad)
+        - show what actually happens with real VGG-16 model
+        - encourage to play around with the model add home
+      15min all: discuss concepts for applying convolution to course project 
+        - CAE pre-training strategy (reconstruction)
+        - options for input representations: raw audio or spectrum
+      "
+
+
+
+  - date: 2016-11-17
+    type:
+    content:
+    - title: RNNs (part 1)  
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 10 Sequence Modeling: Recurrent and Recursive Nets"
+      url: http://www.deeplearningbook.org/contents/rnn.html
+    assignment:
+        - label: 
+          link: assignment5.html
+          objectives:
+            "
+            "
+          activities: 
+            "
+            "
+    objectives:
+      "
+      "    
+    activities: 
+      "
+      3-minute recap 'Last episode of...' (pictures of CNN active structuring results),   
+      30min answering questions / discussion on 1st part of RNN chapter (basic RNNs),  
+
+      something about different RNN strategies 
+      wiring game/exercise?
+      "
+
+
+
+  - date: 2016-11-24
+    type:
+    content:
+    - title: RNNs (part 2)    
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 10 Sequence Modeling: Recurrent and Recursive Nets"
+      url: http://www.deeplearningbook.org/contents/rnn.html
+    - title: several cutting-edge research papers (pick one per doodle poll)
+      url:
+    assignment:
+        - label: 
+          link: assignment6.html
+          objectives:
+            "
+            "
+          activities: 
+            "
+            "
+    objectives:
+      "
+      "    
+    activities: 
+      "
+      3-minute recap 'Last episode of...',   
+      30min answering questions / discussion on remainder of RNN chapter (LSTMs, GRU, Attention),  
+      15min expert rounds (one per paper)
+      5min buffer
+      15min jigsaw: compare approaches 
+      20min discuss ideas for improving course project
+      "
+
+
+
+  - date: 2016-11-10
+    type:
+    content:
+    - title: X
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter "
+      url: http://www.deeplearningbook.org/contents/.html
+    assignment:
+        - label: 
+          link: assignment.html
+          objectives:
+            "
+            "
+          activities: 
+            "
+            "
+    objectives:
+      "
+      "    
+    activities: 
+      "
+      3-minute recap 'Last episode of...',   
+      30min answering questions / discussion of MLP chapter,  
+      "
+
+
+    activities:
+      "
+      recap task: what are the 'natural' bias/regularization for CNNs and RNNs (weight sharing)
+      "
+
+
+  - date: 2017-12-31
     type: Guest Talk
-    slides: 
+    content:
+    - title: Learning with Side Information      
+      slides: 
     reading: 
     - author: Goodfellow et al. (2016a)
       title: Deep Learning Book - Chapter 9 (CNNs), sections 9.6ff are optional
