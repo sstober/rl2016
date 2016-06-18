@@ -37,11 +37,11 @@ About 50% of the in-class time will be used to discuss the open questions about 
 In the remaining time, we will focus on advancing the course project by applying what you just learned and developing new ideas.
 
 As [course project](project.html), you will design, train and analyze an automatic speech recognition system.
-This will be a collaborative group effort with a little competition about which group eventually learns the best representation.
+This will be a collaborative team effort with a little competition about which team eventually learns the best representation.
 For the project, you will have access to a professional-grade GPU compute server and a [dataset](http://www.openslr.org/12/) of approximately 1000 hours of transcribed audio recordings.
 With this you will able to build a proper system.
 The implementation will be in Python using either [Theano](https://github.com/Theano/Theano) or [Tensorflow](https://www.tensorflow.org/) as base framework.
-Each group will document their progress in weekly blog posts with rotating authors 
+Each team will document their progress in weekly blog posts with rotating authors 
 and describe their final solution in a short paper.
 
 The course primarily addresses students within the [Cognitive Systems Master](http://www.uni-potsdam.de/en/studium/what-to-study/masterstudium/master-a-z/cognitive-systems.html) but is also open to a general audience.
