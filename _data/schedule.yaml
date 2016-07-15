@@ -8,9 +8,6 @@ lectures:
     - optional: True,
       title: "Deep Learning Book - Part I: Applied Math and Machine Learning Basics"
       url: http://www.deeplearningbook.org/
-    - optional: True,
-      title: "TODO: more links to online lectures/talks on basics"
-      url: 
     assignment:
         - label: "Learn to swim"
           link: assignment1.html
@@ -41,7 +38,7 @@ lectures:
         homework: write this down in learner blog"
       - "15min group work: active structuring of ML topics (given topics, mixed groups)"
       - "15min topic map (together), can optionally moved to next class"
-
+    note: "TODO: more links to online lectures/talks on basics"
 
 
   - date: 2016-10-27
@@ -207,7 +204,7 @@ lectures:
     reading:
     - title: "Deep Learning Book - Chapter 10: Sequence Modeling: Recurrent and Recursive Nets"
       url: http://www.deeplearningbook.org/contents/rnn.html
-    - title: several cutting-edge research papers (pick one via doodle poll)
+    - title: additional selected papers TBA (pick one via doodle poll)
       url:
     assignment:
         - label: Encoder-Decoder RNN (in teams)
@@ -233,8 +230,9 @@ lectures:
       - "15min jigsaw: compare approaches in table (take photos of results for course blog)"
       - "20min discussion of ideas for improving course project"
       
-    note: In case some students have left the class, 
-          documenters for remaining lectures may need to be reassigned.          
+    note: "In case some students have left the class, 
+          documenters for remaining lectures may need to be reassigned.  
+          TODO: several cutting-edge research papers (pick one via doodle poll)"
 
 
 
@@ -244,8 +242,9 @@ lectures:
     - title: Visualization & Sonification
       slides: 
     reading:
-    - title: "landmark papers / blogs TBA - read focusing on pattern visualization approaches
-             (option: distribute evenly within each team if too many papers)"
+    - title: "selected landmark papers / blogs TBA  
+             (to be read focusing on pattern visualization approaches)"
+             #(option: distribute evenly within each team if too many papers)
       url: 
 
     objectives:
