@@ -9,9 +9,9 @@ title: Index
 AM 2: Representation Learning - from a Deep Learning Perspective  
 Winter Semester 2016/2017  
 [Dr. Sebastian Stober](http://www.uni-potsdam.de/mlcog/)  
-Thu 10-12; Golm, Haus 14, Raum 0.09 **(tentative)**  
+Mon 14-16; Golm, Haus 10, Raum 0.26 **(to be confirmed)**  
 
-**Begins: Thursday, October 20**
+**Begins: Monday, October 17**
 
 ---
 
