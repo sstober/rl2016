@@ -1,5 +1,5 @@
 lectures:
-  - date: 2016-10-20    
+  - date: 2016-10-17    
     type: 
     content:
     - title: Introductions
@@ -41,7 +41,7 @@ lectures:
     note: "TODO: more links to online lectures/talks on basics"
 
 
-  - date: 2016-10-27
+  - date: 2016-10-24
     type: 
     content:
     - title: MLPs, Gradient Descent & Backpropagation
@@ -82,7 +82,7 @@ lectures:
 
 
 
-  - date: 2016-11-03
+  - date: 2016-10-31
     type: 
     content:
     - title: Autoencoders    
@@ -119,7 +119,7 @@ lectures:
 
 
 
-  - date: 2016-11-10
+  - date: 2016-11-07
     type:
     content:
     - title: CNNs
@@ -163,7 +163,7 @@ lectures:
 
 
 
-  - date: 2016-11-17
+  - date: 2016-11-14
     type:
     content:
     - title: RNNs (part 1)  
@@ -196,7 +196,7 @@ lectures:
           Start of working in teams.
 
 
-  - date: 2016-11-24
+  - date: 2016-11-21
     type:
     content:
     - title: RNNs (part 2)    
@@ -236,7 +236,7 @@ lectures:
 
 
 
-  - date: 2016-12-01
+  - date: 2016-11-28
     type:
     content:
     - title: Visualization & Sonification
@@ -262,7 +262,7 @@ lectures:
   
 
 
-  - date: 2016-12-08
+  - date: 2016-12-05
     type:
     content:
     - title: Regularization Techniques
@@ -286,7 +286,7 @@ lectures:
 
 
 
-  - date: 2016-12-15
+  - date: 2016-12-12
     type:
     content:
     - title: Advanced Regularization Techniques
@@ -307,7 +307,7 @@ lectures:
 
 
 
-  - date: 2017-01-05
+  - date: 2017-01-02
     type:
     content:
     - title: Introspection & Inception
@@ -326,7 +326,7 @@ lectures:
 
 
 
-  - date: 2017-01-12
+  - date: 2017-01-09
     type:
     content:
     - title: Optimization Techniques
@@ -345,7 +345,7 @@ lectures:
 
 
 
-  - date: 2017-01-19
+  - date: 2017-01-16
     type:
     content:
     - title: Advanced Training Strategies
@@ -365,7 +365,7 @@ lectures:
 
 
 
-  - date: 2017-01-26
+  - date: 2017-01-23
     type:
     content:
     - title: Topic of Choice
@@ -382,7 +382,7 @@ lectures:
 
 
 
-  - date: 2017-02-02
+  - date: 2017-01-30
     type:
     content:
     - title: Reinforcement Learning
@@ -404,7 +404,7 @@ lectures:
     note: This topic is not relevant for the class project but becoming very hot and interesting with RL.
 
 
-  - date: 2017-02-09
+  - date: 2017-02-06
     type:
     content:
     - title: Project Presentations
