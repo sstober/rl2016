@@ -3,7 +3,7 @@ lectures:
     type: 
     content:
     - title: Introductions
-      slides: 
+      slides: lectures/01_Introduction.pdf
     reading: 
     - optional: True,
       title: "Deep Learning Book - Part I: Applied Math and Machine Learning Basics"
