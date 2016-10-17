@@ -12,7 +12,7 @@
           {% if entry.nonlocal %}
             <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
   	  {% else %}
-            <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.title }}</a></li>
           {% endif %}
 	{% endif %}
      {% endfor %}
