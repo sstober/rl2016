@@ -36,7 +36,7 @@ This can, for instance, include open questions, self-discovered answers or point
 About 50% of the in-class time will be used to discuss the open questions about the concepts under study.
 In the remaining time, we will focus on advancing the course project by applying what you just learned and developing new ideas.
 
-As [course project](project.html), you will design, train and analyze an automatic speech recognition system.
+As course project, you will design, train and analyze an automatic speech recognition system.
 This will be a collaborative team effort with a little competition about which team eventually learns the best representation.
 For the project, you will have access to a professional-grade GPU compute server and a [dataset](http://www.openslr.org/12/) of approximately 1000 hours of transcribed audio recordings.
 With this you will able to build a proper system.
@@ -51,4 +51,4 @@ You should also know already how to program in Python
 and of course bring some curiosity to embark on an open-ended and exploratory learning process for the course project.
 
 If you have got questions about the course, please contact [Sebastian Stober](mailto:sstober@uni-potsdam.de).
-There is also a [Piazza Forum](https://piazza.com/uni-potsdam.de/winter2017/am2) for the course to discuss questions and help each other!
+There is also a [Campu.UP workspace](https://campusup.uni-potsdam.de/group/representation-learning) for the course to discuss questions and help each other!

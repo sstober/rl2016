@@ -15,7 +15,7 @@ lectures:
             - "Get your feet wet!"
           activities: 
             - set up server accounts
-            - searn to use the development environment
+            - learn to use the development environment
             - work through the intro tutorials for Theano and/or Tensorflow as well as Jupyter
     objectives:
       - establish learning environment (active participation etc.)
@@ -23,7 +23,7 @@ lectures:
       - make course goals explicit (and link them to personal goals)
       - anchor course topic within broader scope of machine learning and deep learning         
     activities: 
-      - "general classroom setup: circle of chairs"
+      - "general classroom setup: circle of chairs / round table"
       - "15min introductions: get to know each other (name, study background, semester etc.)"  
       - "15min explain course rationale, (global) learning objectives, grading mode,
         establish/sign 'class contract' (signing can be done offline, bring to next class)"
