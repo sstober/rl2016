@@ -49,7 +49,7 @@ lectures:
     reading: 
     - title: "Deep Learning Book - Chapter 6: Deep Feedforward Networks"
       url: http://www.deeplearningbook.org/contents/mlp.html
-    assignment:
+    xassignment:
         - label: Basic MLP training
           link: assignment2.html
           objectives:
@@ -90,7 +90,7 @@ lectures:
     reading:
     - title: "Deep Learning Book - Chapter 14: Autoencoders"
       url: http://www.deeplearningbook.org/contents/autoencoders.html
-    assignment:
+    xassignment:
         - label: Basic AE training
           link: assignment3.html
           objectives:
@@ -127,7 +127,7 @@ lectures:
     reading:
     - title: "Deep Learning Book - Chapter 9: Convolutional Networks"
       url: http://www.deeplearningbook.org/contents/convnets.html
-    assignment:
+    xassignment:
         - label: Convolutional AE
           link: assignment4.html
           objectives:
@@ -171,7 +171,7 @@ lectures:
     reading:
     - title: "Deep Learning Book - Chapter 10: Sequence Modeling: Recurrent and Recursive Nets"
       url: http://www.deeplearningbook.org/contents/rnn.html
-    assignment:
+    xassignment:
         - label: Language Model (in teams)
           link: assignment5.html
           objectives:
@@ -206,7 +206,7 @@ lectures:
       url: http://www.deeplearningbook.org/contents/rnn.html
     - title: additional selected papers TBA (pick one via doodle poll)
       url:
-    assignment:
+    xassignment:
         - label: Encoder-Decoder RNN (in teams)
           link: assignment6.html
           objectives:
