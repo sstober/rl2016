@@ -8,15 +8,6 @@ lectures:
     - optional: True,
       title: "Deep Learning Book - Part I: Applied Math and Machine Learning Basics"
       url: http://www.deeplearningbook.org/
-    assignment:
-        - label: "Learn to swim"
-          link: assignment1.html
-          objectives:
-            - "Get your feet wet!"
-          activities: 
-            - set up server accounts
-            - learn to use the development environment
-            - work through the intro tutorials for Theano and/or Tensorflow as well as Jupyter
     objectives:
       - establish learning environment (active participation etc.)
       - reflect on personal goals, motivation and (prior) knowledge
@@ -49,22 +40,15 @@ lectures:
     reading: 
     - title: "Deep Learning Book - Chapter 6: Deep Feedforward Networks"
       url: http://www.deeplearningbook.org/contents/mlp.html
-    xassignment:
-        - label: Basic MLP training
-          link: assignment2.html
+    assignment:
+        - label: "Learn to swim"
+          link: assignment1.html
           objectives:
-            - "practice using the deep learning toolkit with a given model and dataset
-            (no model design necessary yet)"
-            - understand different basic training extensions and parameters
-            - understand basic plotting functions (monitoring channels)
-            - learn to document research process and outcomes            
+            - "Get your feet wet!"
           activities: 
-            - "given: a simple feedforward model and a small dataset"
-            - train the model using stochastic gradient descent
-            - monitor the learning progress using training extensions for printing and plotting
-            - vary the training parameters (e.g., batch size, learning rate) 
-              and compare the resulting learning curves.
-            - write a short blog post about this (could be combined with a jupyter notebook)            
+            - set up server accounts
+            - learn to use the development environment
+            - work through the intro tutorials for Theano and/or Tensorflow as well as Jupyter
     objectives:
       - "understand and be able to explain fundamental and crucial principles of deep learning 
       (MLP, forward/backward propagation and gradient descent)"
@@ -83,339 +67,30 @@ lectures:
 
 
   - date: 2016-10-31
+    type:
+    content:
+    - title: RNNs
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 10: Sequence Modeling: Recurrent and Recursive Nets"
+      url: http://www.deeplearningbook.org/contents/rnn.html
     type: 
-    content:
-    - title: Autoencoders    
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 14: Autoencoders"
-      url: http://www.deeplearningbook.org/contents/autoencoders.html
-    xassignment:
-        - label: Basic AE training
-          link: assignment3.html
+    assignment:
+        - label: RNN Exploration
+          link: assignment2+3.html
           objectives:
-            - "gain first experiences with designing and training a simple 
-            (fully connected, feedforward) neural network"
-            - learn to document the research process and outcomes            
+            - "practice using the deep learning toolkit with a given model and dataset
+            (no model design necessary yet)"
+            - understand different basic training extensions and parameters
+            - understand basic plotting functions (monitoring channels)
+            - learn to document research process and outcomes            
           activities: 
-            - "build (fully connected) AE for small training dataset (6h) with fixed input length"
-            - "try different input lengths and sampling rates for the input data
-              (dataset preparation script will be readily available)"
-            - measure performance on training and validation set
-            - document and discuss findings in a blog post (could be combined with a jupyter notebook)
+            - "given: a simple feedforward model and a small dataset"
+            - train the model using stochastic gradient descent
+            - monitor the learning progress using training extensions for printing and plotting
+            - vary the training parameters (e.g., batch size, learning rate) 
+              and compare the resulting learning curves.
+            - write a short blog post about this (could be combined with a jupyter notebook)                    - document and discuss findings in a blog post (could be combined with a jupyter notebook)
+
+
             
-    objectives:
-      - understand and be able to explain fundamental and crucial principles of autoencoders
-      - be able to explain differences between autoencoder design approaches
-         
-    activities: 
-      - "3-minute recap 'Last episode of...' (pictures of basic MLP and forward/backward propagation scheme)"
-      - 30min answering questions / discussion of autoencoder chapter
-      - "15min all: develop overview of AE design approaches mentioned in the chapter 
-        (fill cells in given table or active structuring as map)"
-      - "10min in groups: let students hand-craft 3-bit autoencoder for numbers 1-8 (Tom Mitchell ML book example)"
-      - 5min additional questions / buffer
-      - 25min feedback on assignment 2 and preparation for assignment 3      
-
-
-
-  - date: 2016-11-07
-    type:
-    content:
-    - title: CNNs
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 9: Convolutional Networks"
-      url: http://www.deeplearningbook.org/contents/convnets.html
-    xassignment:
-        - label: Convolutional AE
-          link: assignment4.html
-          objectives:
-            - gain first experiences of learning phoneme-like features in the audio signal domain
-            - learn to document the research process and outcomes
-            
-          activities: 
-            - like assignment 3 but with convolution
-            - build CAE for small training dataset (6h speech)
-            - try different sampling rates and input formats (raw audio vs. frequency spectrum vs. wavelets)
-            - document and discuss findings in a blog post (could be combined with a jupyter notebook)
-
-    objectives:
-      - understand and be able to apply concepts of convolution and pooling operations
-      
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - 30min answering questions / discussion of MLP chapter,  
-      - "10min small groups (3-4): active structuring:  
-        reconstruct VGG-16 CNN architecture from building blocks (convolution filters and pooling layers) 
-        and match with activations (including softmax output and prediction) for a given input image   
-        -> either do this for K different networks (1 per group) or at least use K different input images"
-      - "10min all: go around and discuss solutions, summary/comparison"
-      - 5min buffer/remaining questions
-      - "15min all or small groups (3-4): discuss what happens for augmented inputs:  
-        (1) shifted, inverted, +noise, scaled, rotated,
-        (2) extra: modified input image (with adversarial optimization),
-        (3) instructor: demonstrate live what actually happens with real VGG-16 model,
-        (4) instructor: encourage to play around with the model at home"
-      - "15min all: discuss concepts for applying convolution to course project:  
-        (1) CAE pre-training strategy (reconstruction),
-        (2) options for input representations: raw audio or spectrum"      
-
-
-
-  - date: 2016-11-14
-    type:
-    content:
-    - title: RNNs (part 1)  
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 10: Sequence Modeling: Recurrent and Recursive Nets"
-      url: http://www.deeplearningbook.org/contents/rnn.html
-    xassignment:
-        - label: Language Model (in teams)
-          link: assignment5.html
-          objectives:
-            - within newly formed teams (only students who remain in course)
-            - "learn how to train a basic language model that could be used within the decoder part
-            of a speech-to-text model"
-          activities: 
-            - train a (recurrent) language model to predict the next word in a (written) sentence.
-            - document and discuss findings in a blog post (could be combined with a jupyter notebook)
-
-    objectives:
-      - understand and be able to apply concepts of recurrence
-      
-    activities: 
-      - "3-minute recap 'Last episode of...' (pictures of CNN active structuring results)"
-      - "30min answering questions / discussion on 1st part of RNN chapter (basic RNNs)"
-      - "TODO: something to make different RNN strategies stick, e.g. wiring game/exercise?"
-      - "..."
-      - "10min to assign students into teams (should be self-organized)"
-      
-    note: Last chance to withdraw from class until Nov 20.
-          Start of working in teams.
-
-
-  - date: 2016-11-21
-    type:
-    content:
-    - title: RNNs (part 2)    
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 10: Sequence Modeling: Recurrent and Recursive Nets"
-      url: http://www.deeplearningbook.org/contents/rnn.html
-    - title: additional selected papers TBA (pick one via doodle poll)
-      url:
-    xassignment:
-        - label: Encoder-Decoder RNN (in teams)
-          link: assignment6.html
-          objectives:
-            - 1st attempt on speech-to-text RNN (team effort)
-            
-          activities: 
-            - train a basic speech-to-text RNN
-            - document and discuss findings in a blog post (could be combined with a jupyter notebook)
-            - "FEEDBACK: anonymous mid-term evaluation (poll with extra field for free text),
-            also check self-assessment of how well students think they are doing"
-            
-    objectives:
-      - understand and be able to apply concepts of recurrent [and recursive] networks
-      - be able to explain principles of advanced RNN approaches (LSTM, GRU, etc.) with their pros and cons
-          
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min answering questions / discussion on remainder of RNN chapter (LSTMs, GRU, Attention)"
-      - "15min expert rounds (one per paper)"
-      - "5min buffer"
-      - "15min jigsaw: compare approaches in table (take photos of results for course blog)"
-      - "20min discussion of ideas for improving course project"
-      
-    note: "In case some students have left the class, 
-          documenters for remaining lectures may need to be reassigned.  
-          TODO: several cutting-edge research papers (pick one via doodle poll)"
-
-
-
-  - date: 2016-11-28
-    type:
-    content:
-    - title: Visualization & Sonification
-      slides: 
-    reading:
-    - title: "selected landmark papers / blogs TBA  
-             (to be read focusing on pattern visualization approaches)"
-             #(option: distribute evenly within each team if too many papers)
-      url: 
-
-    objectives:
-      "
-      "    
-    activities: 
-      - 15min feedback/discussion on mid-term evaluation
-      - "3-minute recap 'Last episode of...'"
-      - "..."
-      
-    note: This lecture marks the start of phase II where students will work more independently (in their teams).
-            From now on, each team will set their own goals (assignments) for the next week
-            and prepare a 3-min summary of their progress to be presented in class 
-            as well as a short blog entry (responsibility will rotate within teams each week)
-  
-
-
-  - date: 2016-12-05
-    type:
-    content:
-    - title: Regularization Techniques
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 7: Regularization for Deep Learning"
-      url: http://www.deeplearningbook.org/contents/regularization.html
-
-    objectives:
-      - understand and be able to explain different regularization approaches and their effects
-          
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min or more answering questions / discussion of Regularization chapter"
-
-    Note: "This lecture might be postponed because of NIPS happening this week.
-          In this case, this and the following lecture might be combined or moved to January,
-          having the lecture on introspection including a report on new NIPS papers on Dec 15.
-          This could also be a hangout session 'live from NIPS' reporting on NIPS highlights."
-      
-
-
-
-  - date: 2016-12-12
-    type:
-    content:
-    - title: Advanced Regularization Techniques
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 7: Regularization for Deep Learning"
-      url: http://www.deeplearningbook.org/contents/regularization.html
-    - title: additional selected papers TBA
-      url: 
-
-    objectives:
-      - "understand and be able to explain advanced regularization approaches (Drop*, K-Sparsity) and their effects"
-            
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min or more answering questions / discussion of remainder from Regularization chapter"
-      - "TODO: recap task: what are the 'natural' bias/regularization for CNNs and RNNs (weight sharing)"
-
-
-
-  - date: 2017-01-02
-    type:
-    content:
-    - title: Introspection & Inception
-      slides: 
-    reading:
-    - title: selected papers TBA
-      url: 
-    objectives:
-      - TODO
-
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min or more answering questions / discussion of literature"
-      - "TODO: option: jigsaw"  
-      - "10min: Choose topic for class on Jan 26 (could be voted offline if no time)"    
-
-
-
-  - date: 2017-01-09
-    type:
-    content:
-    - title: Optimization Techniques
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 8: Optimization for Training Deep Models"
-      url: http://www.deeplearningbook.org/contents/optimization.html
-    - title: additional selected papers TBA
-      url: 
-    objectives:
-      - TODO    
-    activities: 
-      - "3-minute recap 'Last episode of...'"  
-      - "30min answering questions / discussion of Optimization chapter"
-      - TODO
-
-
-
-  - date: 2017-01-16
-    type:
-    content:
-    - title: Advanced Training Strategies
-      slides: 
-    reading:
-    - title: "Deep Learning Book - Chapter 15: Representation Learning"
-      url: http://www.deeplearningbook.org/contents/representation.html
-    - title: additional selected papers TBA
-      url: 
-    objectives:
-      - "topics: model compression, soft targets"
-         
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min answering questions / discussion of chapter"
-      - TODO
-
-
-
-  - date: 2017-01-23
-    type:
-    content:
-    - title: Topic of Choice
-      slides: 
-    reading:
-    - title: TBA - Topic will be chosen by vote in class on Jan 2.
-      url: 
-    objectives:
-      - TODO
-
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min answering questions / discussion of literature"
-
-
-
-  - date: 2017-01-30
-    type:
-    content:
-    - title: Reinforcement Learning
-      slides: 
-    reading:
-    - title: selected papers TBA
-      url: 
-    objectives:
-      - teaser for possible PM2/PM1 course on reinforcement learning in dialog systems in summer term 2017
-      - TODO
-
-    activities: 
-      - "3-minute recap 'Last episode of...'"
-      - "30min answering questions / discussion of literature"
-      - TODO
-      - "End-of-course evaluation (Can we do this at this point?)" 
-      
-    
-    note: This topic is not relevant for the class project but becoming very hot and interesting with RL.
-
-
-  - date: 2017-02-06
-    type:
-    content:
-    - title: Project Presentations
-      slides:     
-    objectives:
-      - Be able to present research.
-         
-    activities: 
-      - Each group presents their solution in a 15-20min presentation.  
-      - "Feedback / discussion of evaluation. (Will we have the results already?)"
-      - Course debriefing
-      
-
-  
