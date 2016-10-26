@@ -22,7 +22,7 @@ Please start by reading the full [Deep Learning Book - Chapter 10: Sequence Mode
 
 Post your remarks, insights and open questions in your blog and in the forum! Help each other to make sure you are not getting stuck too long with some unresolved issue.
 
-Deadline for questions to be considered in class is *November 5, 7am*. 
+**Deadline for questions to be considered in class is November 5, 7am**. 
 I will also try to accommodate things that come in later but I cannot make guarantees. The earlier you bring up questions, the better.
 
 ## Explore!
