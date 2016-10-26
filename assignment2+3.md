@@ -7,7 +7,7 @@ id: ass2
 
 # Assignments 2 & 3: RNN Exploration
 
-In these assignments, we will jump right the realm of some of the most successful neural network designs: recurrent and recursive neural networks.
+In these assignments, we will jump right into the realm of some of the most successful neural network designs: recurrent and recursive neural networks.
 
 If you have not completed [assignment 1](assignment1.html) yet, make sure to catch up and finish all tasks before you continue!
 
