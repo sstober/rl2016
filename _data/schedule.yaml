@@ -92,4 +92,15 @@ lectures:
               and compare the resulting learning curves.
             - write a short blog post about this (could be combined with a jupyter notebook)                    - document and discuss findings in a blog post (could be combined with a jupyter notebook)
 
-
+  - date: 2016-11-14
+    type:
+    content:
+    - title: CNNs
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 9: Convolutional Networks"
+      url: http://www.deeplearningbook.org/contents/convnets.html
+    type: 
+    assignment:
+        - label: CNN Exploration
+          link: assignment4.html
