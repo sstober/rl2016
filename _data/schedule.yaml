@@ -104,3 +104,16 @@ lectures:
     assignment:
         - label: CNN Exploration
           link: assignment4.html
+
+  - date: 2016-11-21
+    type:
+    content:
+    - title: Autoencoders
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 14: Autoencoders"
+      url: http://www.deeplearningbook.org/contents/autoencoders.html
+    type: 
+    assignment:
+        - label: Case Studies
+          link: assignment5.html

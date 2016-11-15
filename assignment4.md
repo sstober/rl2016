@@ -7,7 +7,7 @@ id: ass4
 
 # Assignments 4: CNNs
 
-In these assignments, we will will continue to explore common neural network designs and extend our focus towards convolutional neural networks a.k.a. CNNs or convnets. 
+In these assignments, we will continue to explore common neural network designs and extend our focus towards convolutional neural networks a.k.a. CNNs or convnets. 
 
 ## Basic Reading
 
