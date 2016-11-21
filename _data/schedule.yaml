@@ -117,3 +117,16 @@ lectures:
     assignment:
         - label: Case Studies
           link: assignment5.html
+
+  - date: 2016-11-28
+    type:
+    content:
+    - title: Regularization Techniques
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 7: Regularization for Deep Learning"
+      url: http://www.deeplearningbook.org/contents/regularization.html
+    assignment:
+        - label: Regularization
+          link: assignment6.html
+
