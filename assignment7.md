@@ -52,9 +52,9 @@ Please share your code and presentations from the concept projects (previous ass
 
 Furthermore, each group from the Unconference should open a new thread in the course forum and post their minutes.
 Then proceed to take first steps as discussed - distributing workload as needed over those contributing!
-Work should be coordinated through the forum so others not directly involved can follow up.
+Work should be coordinated through the forum, so others not directly involved can follow up.
 
 For the next meeting in class, each group should prepare a short progress report (1-3 min, not more!) with the main points - preferably as a blog/forum post, slide or jupyter-notebook. 
 Please avoid browsing through code at this point!
 Additionally, you can prepare questions or points you would like to discuss in class. 
-It helps for preparation if these are also posted in Campus.UP.
+It helps for preparation if these are also posted in Campus.UP a little earlier.
