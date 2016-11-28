@@ -127,6 +127,18 @@ lectures:
     - title: "Deep Learning Book - Chapter 7: Regularization for Deep Learning"
       url: http://www.deeplearningbook.org/contents/regularization.html
     assignment:
-        - label: Regularization
+        - label: Reading
           link: assignment6.html
+
+  - date: 2016-12-05
+    type:
+    content:
+    - title: Optimization Techniques
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 8: Optimization for Training Deep Models, Sections 8.1-8.5"
+      url: http://www.deeplearningbook.org/contents/optimization.html
+    assignment:
+        - label: Reading
+          link: assignment7.html
 
