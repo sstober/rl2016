@@ -142,3 +142,16 @@ lectures:
         - label: Reading
           link: assignment7.html
 
+  - date: 2016-12-12
+    type:
+    content:
+    - title: Optimization Techniques (cont.) & Practical Methodology
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 8: Optimization for Training Deep Models, Section 8.7"
+      url: http://www.deeplearningbook.org/contents/optimization.html
+    - title: "Deep Learning Book - Chapter 11: Practical Methodology"
+      url: http://www.deeplearningbook.org/contents/guidelines.html
+    xassignment:
+        - label: Reading
+          link: assignment8.html
