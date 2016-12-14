@@ -16,7 +16,7 @@ From the [Deep Learning Book - Chapter 12: Applications](http://www.deeplearning
 * 12.3 Speech Recognition  
 	(This provides a rather historical perspective on the developments so far.)
 
-* 12.4--12.4.5 Natural Language Processing 
+* 12.4--12.4.5 Natural Language Processing  
 	with special emphasis on
 	12.4.3 (High-Dimensional Outputs) and 
 	12.4.5.1 (Attention).
