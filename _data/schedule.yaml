@@ -155,3 +155,17 @@ lectures:
     xassignment:
         - label: Reading
           link: assignment8.html
+
+  - date: 2017-01-02
+    type:
+    content:
+    - title: Applications & Theoretical Considerations
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 12: Applications (selected passages)"
+      url: http://www.deeplearningbook.org/contents/applications.html
+    - title: "Deep Learning Book - Chapter 15: Representation Learning (selected passages)"
+      url: http://www.deeplearningbook.org/contents/representation.html
+    assignment:
+        - label: Reading
+          link: assignment9.html
