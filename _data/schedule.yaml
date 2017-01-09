@@ -183,3 +183,17 @@ lectures:
     assignment:
         - label: Reading
           link: assignment10.html
+
+  - date: 2017-01-16
+    type:
+    content:
+    - title: Partition Fuction & [Restricted] Boltzmann Machines
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 18: Confronting the Partition Function (selected passages)"
+      url: http://www.deeplearningbook.org/contents/partition.html
+    - title: "Deep Learning Book - Chapter 20: Deep Generative Models (section 20.1 & 20.2)"
+      url: http://www.deeplearningbook.org/contents/generative_models.html
+    assignment:
+        - label: Reading
+          link: assignment11.html
