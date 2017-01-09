@@ -24,7 +24,7 @@ Divergence
 * 18.7 Estimating the Partition Function
   (Subsections 18.7.1 and 18.7.2 are optional.)
 
-Sections 18.3 and 18.5 are optional. These topics will not be covered in the course.
+Sections 18.3, 18.4 and 18.5 are optional. These topics will not be covered in the course.
 
 Furthermore, please read the following sections from [Deep Learning Book - Chapter 20: Deep Generative Models](http://www.deeplearningbook.org/contents/20 generative_models.html):
 
