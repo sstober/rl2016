@@ -16,12 +16,12 @@ From the [Deep Learning Book - Chapter 18: Confronting the Partition Function](h
 * 18.1 The Log-Likelihood Gradient
 
 * 18.2 Stochastic Maximum Likelihood and Contrastive
-Divergence
+Divergence  
   (This is the most important section.)
 
 * 18.6 Noise-Contrastive Estimation
 
-* 18.7 Estimating the Partition Function
+* 18.7 Estimating the Partition Function  
   (Subsections 18.7.1 and 18.7.2 are optional.)
 
 Sections 18.3, 18.4 and 18.5 are optional. These topics will not be covered in the course.
