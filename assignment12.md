@@ -9,7 +9,7 @@ id: ass12
 
 ## Reading
 
-In this reading assignment, we extend our focus on probablistic models with intractable posterior distributions p(h|v).
+In this reading assignment, we extend our focus on probablistic models with intractable posterior distributions.
 
 Please read [Deep Learning Book - Chapter 19: Approximate Inference](https://www.deeplearningbook.org/contents/inference.html) for an overview on possible approaches. You can skip most of Section 19.4.1 as indicated in the text.
 
