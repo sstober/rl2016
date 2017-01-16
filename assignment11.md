@@ -26,7 +26,7 @@ Divergence
 
 Sections 18.3, 18.4 and 18.5 are optional. These topics will not be covered in the course.
 
-Furthermore, please read the following sections from [Deep Learning Book - Chapter 20: Deep Generative Models](http://www.deeplearningbook.org/contents/20 generative_models.html):
+Furthermore, please read the following sections from [Deep Learning Book - Chapter 20: Deep Generative Models](http://www.deeplearningbook.org/contents/generative_models.html):
 
 * 20.1 Boltzmann Machines
 

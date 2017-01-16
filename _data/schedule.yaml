@@ -197,3 +197,17 @@ lectures:
     assignment:
         - label: Reading
           link: assignment11.html
+
+  - date: 2017-01-23
+    type:
+    content:
+    - title: Deep Belief Networks & Deep Boltzmann Machines
+      slides: 
+    reading:
+    - title: "Deep Learning Book - Chapter 19: Approximate Inference"
+      url: http://www.deeplearningbook.org/contents/inference.html
+    - title: "Deep Learning Book - Chapter 20: Deep Generative Models (section 20.3 & 20.4)"
+      url: http://www.deeplearningbook.org/contents/generative_models.html
+    assignment:
+        - label: Reading
+          link: assignment12.html
