@@ -211,3 +211,15 @@ lectures:
     assignment:
         - label: Reading
           link: assignment12.html
+
+  - date: 2017-01-30
+    type:
+    content:
+    - title: Directed Generative Nets
+      slides: 
+    reading:    
+    - title: "Deep Learning Book - Chapter 20: Deep Generative Models (section 20.6 - 20.10)"
+      url: http://www.deeplearningbook.org/contents/generative_models.html
+    assignment:
+        - label: Reading
+          link: assignment13.html
