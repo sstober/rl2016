@@ -223,3 +223,22 @@ lectures:
     assignment:
         - label: Reading
           link: assignment13.html
+
+  - date: 2017-02-06
+    type:
+    content:
+    - title: Course Wrap-Up
+      slides:     
+    reading:    
+    - title: "Deep Learning Book - Chapter 20: Deep Generative Models (section 20.11 - 20.15)"
+      url: http://www.deeplearningbook.org/contents/generative_models.html
+    objectives:
+      - Be able to present research.
+    assignment:
+      - label: Final Assignments
+        link: assignment14.html
+         
+    activities: 
+      - Each group presents their solution in a 15-20min presentation.  
+      - "Feedback / discussion of evaluation. (Will we have the results already?)"
+      - Course debriefing
